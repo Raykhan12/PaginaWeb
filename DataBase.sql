@@ -1,1 +1,1 @@
-CREATE DATABASE PaginaWeb;
+CREATE DATABASE djangobd;
