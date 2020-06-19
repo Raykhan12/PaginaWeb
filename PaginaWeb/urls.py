@@ -20,5 +20,5 @@ from PaginaWeb.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludo',saludo),
-    path('fecha',dameFecha),
+
 ]
