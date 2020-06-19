@@ -57,7 +57,7 @@ ROOT_URLCONF = 'ProyectoPagina.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,"PaginaWeb/Plantillas")],#***** agregar carpeta con las plantillas
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
